@@ -319,6 +319,23 @@ ga('send', 'pageview');
           gitment.render('gitment-art')
           </script>
       </div>
+      <div class="Gitalk">
+        <div id="gitalk-art"></div> 
+          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+          <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+          <script>
+          const gitalk = new Gitalk({
+            clientID: '1af62824c8d0c129d52e',
+            clientSecret: 'ad0c76ff05b3d69c17dd0631c63f36427a22989f',
+            repo: 'teages.github.io',
+            owner: 'Teages',
+            admin: ['Teages'],
+            id: pages/Luogu-p1603.html,      // Ensure uniqueness and length less than 50
+            distractionFreeMode: true  // Facebook-like distraction free mode
+          })
+          gitment.render('gitment-art')
+          </script>
+      </div>
     </div>
   </div>
 </article>
