@@ -17,7 +17,7 @@ permalink: /about/
 3. [Github Pages](https://github.com)提供静态网站空间
 
 ## 版权信息
-©2018-2020 @Teages
+Copyright © 2018-2020 @Teages对文章原创内容持所有权
 
 在本站评论需要注意遵守：
 
