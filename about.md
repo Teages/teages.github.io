@@ -17,7 +17,7 @@ permalink: /about/
 3. [Github Pages](https://github.com)提供静态网站空间
 
 ## 版权信息
-©2018-2019 @Teages</br>Teages's Blog</br>
+©2018-2020 @Teages
 
 在本站评论需要注意遵守：
 
@@ -25,3 +25,6 @@ permalink: /about/
 2. [Github Page 使用限制](https://help.github.com/en/articles/what-is-github-pages#usage-limits)</br>
 3. [基本的道德素养](https://baike.baidu.com/item/%E9%81%93%E5%BE%B7/7931209)
 
+隐私声明:我们会收集你的访问信息用作文章热度统计,我们保证这些数据不会分发给除了Google Analysis以外的第三方.
+
+如果你想,禁用Cookies访问本站不会有任何功能缺失.
