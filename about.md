@@ -12,9 +12,9 @@ permalink: /about/
 <!-- more -->
   
 感谢:
-1. [Jekyll](https://jekyllrb.com/)提供框架
-2. [Loffer](https://github.com/FromEndWorld/LOFFER)作为主题
-3. [Github Pages](https://github.com)提供静态网站空间
+1. [Jekyll](https://jekyllrb.com/)提供框架.
+2. [Loffer](https://github.com/FromEndWorld/LOFFER)作为主题,修改内容开源[在此](https://github.com/Teages/loffer-blog).
+3. [Github Pages](https://pages.github.com/)提供静态网站空间.
 
 ## 版权信息
 Copyright © 2018-2020 @Teages对文章原创内容持所有权
