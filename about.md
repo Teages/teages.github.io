@@ -16,7 +16,7 @@ permalink: /about/
 2. [Loffer](https://github.com/FromEndWorld/LOFFER)作为主题,修改内容开源[在此](https://github.com/Teages/loffer-blog).
 3. [Github Pages](https://pages.github.com/)提供静态网站空间.
 
-## 版权信息
+# 版权信息
 Copyright © 2018-2020 @Teages对文章原创内容持所有权
 
 在本站评论需要注意遵守：
@@ -28,3 +28,8 @@ Copyright © 2018-2020 @Teages对文章原创内容持所有权
 隐私声明:我们会收集你的访问信息用作文章热度统计,我们保证这些数据不会分发给除了Google Analysis以外的第三方.
 
 如果你想,禁用Cookies访问本站不会有任何功能缺失.
+
+# 更新
+
+## 2020.02.21 
+图片现在可以点击放大了
