@@ -54,6 +54,7 @@ footer-links:
   tumblr: # https://<username>.tumblr.com
   twitter: Teages_L # https://www.twitter.com/<your_twitter_username> 
   youtube: # channel/<your_long_string> or user/<user-name>
+  bilibili: 37429890 # https://space.bilibili.com/<user-uid>
 
 # 站点页脚的文字
 footer-text: Copyright © 2018-2020
