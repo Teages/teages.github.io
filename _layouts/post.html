@@ -21,6 +21,11 @@ layout: default
           {{ tag }}
         </a>
       </li>
+      <div class="{{ tag }}">
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          {{ tag }}
+        </a>
+      </div>
       {% endfor %}
     </ul>
   </div>
