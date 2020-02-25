@@ -2,6 +2,7 @@
 layout: page
 title: 关于
 permalink: /about/
+toc: true
 ---
 
 搭好这个博客花了好长一段时间。。。
