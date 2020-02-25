@@ -30,8 +30,6 @@ layout: default
   </div>
 
   {% include clickable-image.html %}
-  {% include disqus.html %}
-  {% include gitalk.html %}
 </article>
 
 <div class="pagination">
@@ -49,4 +47,9 @@ layout: default
       </a>
     </span>
   {% endif %}
+</div>
+
+<dic class="comment">
+  {% include disqus.html %}
+  {% include gitalk.html %}
 </div>
