@@ -9,7 +9,7 @@ layout: default
 <div class="posts">
   
   {% for post in site.posts %}
-    {% if post.pinned==true %}
+    {% if post.pinned==true and unless post.hide %}
       <article class="post pinned">
         <h1>
             <span title="pinned"><i data-feather="anchor"></i></span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -50,7 +50,7 @@ layout: default
   {% endfor %}
   
   {% for post in paginator.posts %}
-    {% unless post.pinned %}
+    {% unless post.pinned and unless post.hide %}
     <article class="post">
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
