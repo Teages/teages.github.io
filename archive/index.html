@@ -19,16 +19,18 @@ permalink: /archive/
         <h2>{{ post.date | date: '%Y' }}</h2>
       {% endif %}
     {% endunless %}
-
-    <li>
-      {% if post.link %}
-      <a href="{{ post.link }}">
-      {% else %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-      {% endif %}
-        {{ post.title }}
-      </a>
-      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-    </li>
+  
+    {% if unless post.hide %}
+      <li>
+        {% if post.link %}
+        <a href="{{ post.link }}">
+        {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        {% endif %}
+          {{ post.title }}
+        </a>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      </li>
+     {% endif %} 
   {% endfor %}
 </ul>
