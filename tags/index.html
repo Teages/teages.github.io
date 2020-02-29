@@ -26,7 +26,7 @@ permalink: /tags/
     </h2>
     <ul class="tag">
       {% for post in tag[1] %}
-        {% if post.title != null and unless post.hide %}
+        {% if post.title != null %}
           <li>
             {% if post.link %}
               <a href="{{ post.link }}">
