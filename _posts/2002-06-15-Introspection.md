@@ -22,7 +22,7 @@ toc: true
 ### 3月
 
 #### 1日
-![2020-03-01](/posts-source/I-am-silly/2020-03-01.png)
+![2020-03-01](/posts-source/I-am-silly/2020-03-01.jpg)
 
 ### 2月
 
