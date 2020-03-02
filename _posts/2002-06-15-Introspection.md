@@ -19,18 +19,23 @@ toc: true
 
 ## 2020年
 
+### 3月
+
+#### 1日
+![2020-03-01](/posts-source/I-am-silly/2020-03-01.png)
+
 ### 2月
 
 #### 21日
-![2020-2-21](/posts-source/I-am-silly/2020-02-21.png)
+![2020-02-21](/posts-source/I-am-silly/2020-02-21.png)
 
 如图
 
 #### 18日
-![2020-2-18](/posts-source/I-am-silly/2020-02-18.jpg)
+![2020-02-18](/posts-source/I-am-silly/2020-02-18.jpg)
 在/etc/corn.d建立git,我不愧是傻逼.
 
 #### 13日
-![2020-2-13](/posts-source/I-am-silly/2020-02-13.jpg)
+![2020-02-13](/posts-source/I-am-silly/2020-02-13.jpg)
 
 原来V.尾杀是双押啊!!!!我是傻逼!!!
