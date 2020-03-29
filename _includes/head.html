@@ -24,7 +24,7 @@
   </script>
   
   <script type="text/javascript">
-        if (window.location.href.indexOf("{{ site.url }}") <= -1) {
+        if (window.location.href != "{{ site.url }}") {
 			var current_url = window.location.href;
 			target_url = current_url.replace(window.location.host,”{{ site.url }}”);
 			window.location = target_url;
