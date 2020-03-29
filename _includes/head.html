@@ -22,6 +22,14 @@
       }
     });
   </script>
+  
+  <script type="text/javascript">
+        if (window.location.href.indexOf("{{ site.url }}") <= -1) {
+			var current_url = window.location.href;
+			target_url = current_url.replace(window.location.host,”{{ site.url }}”);
+			window.location = target_url;
+		}
+  </script>
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
