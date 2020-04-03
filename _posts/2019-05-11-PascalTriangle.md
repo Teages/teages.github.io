@@ -3,7 +3,7 @@ layout: post
 title: 【题解】杨辉三角的坍塌
 date: 2019-05-11
 Author: Teages 
-tags: [Daily, Codes]
+tags: [ Codes ,  CC BY NC 4.0 ]
 comments: true
 toc: true
 ---
