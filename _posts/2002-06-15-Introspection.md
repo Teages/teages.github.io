@@ -6,6 +6,7 @@ Author: Teages
 tags: [Daily]
 comments: true
 toc: true
+hide: true
 ---
 ![I-am-silly](/posts-source/I-am-silly/I-am-silly.png)
 
