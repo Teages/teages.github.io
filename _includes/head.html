@@ -40,7 +40,7 @@
   {% endif %}
 
   <script type="text/javascript">
-        if ("https://" + window.location.hostname != "{{ site.url }}") {
+        if ("https://" + window.location.hostname != "{{ site.url }}" || window.location.hostname.indexOf("now.sh") != -1) {
 			var current_url = window.location.href;
 			target_url = current_url.replace(window.location.hostname,"{{ site.url }}".replace("https://","").replace("http://",""));
 			//window.location = target_url;
