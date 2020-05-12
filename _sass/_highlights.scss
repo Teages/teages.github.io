@@ -94,6 +94,7 @@ body.dark-theme {
     background: #212121;
   }
   
- .highlight .ne { color: #f92672; font-weight: bold } /* Name.Exception */
- .highlight .nf { color: #f92672; font-weight: bold } /* Name.Function */
+  .highlight  { background: rgba(1, 1, 1, 0); }
+  .highlight .ne { color: #f92672; font-weight: bold } /* Name.Exception */
+  .highlight .nf { color: #f92672; font-weight: bold } /* Name.Function */
 }

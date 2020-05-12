@@ -1116,10 +1116,7 @@ body.dark-theme {
   
   // Tags
   .tags > .label {
-    > li:before {
-    content: "";
-    }
-    
+ 
     > a {
         color: $base-color-dark;
         background-color: $tag-index-label-background-color-dark;
@@ -1127,7 +1124,11 @@ body.dark-theme {
         &:hover {
         background-color: $link-bghv-color-dark;
         }
-  
+        span {
+          &.count {
+            background-color: $tag-index-count-background-color-dark;
+          }
+        }
     }
     
   }
