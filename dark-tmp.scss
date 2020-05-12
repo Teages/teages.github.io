@@ -1,0 +1,299 @@
+// Dark mode
+
+@media (prefers-color-scheme: dark) {
+    
+    body.dark-theme {
+        color: $base-color-dark;
+        background: #343a40;
+    }
+
+    body.dark-theme h4 {
+        color: $base-lighten-color-dark;
+    }
+    
+    body.dark-theme h6 {
+        color: $base-lighten-color-dark;
+    }
+    
+    body.dark-theme p {
+        color: $text-color-dark;
+    }
+    
+    body.dark-theme a {
+        color: $link-color-dark;
+    
+        &:hover, &:active {
+        color: $link-lighten-color-dark;
+        }
+    }
+    
+    body.dark-theme hr {
+        border-top: 1px solid $divider-color-dark;
+    }
+    
+    // Yeun's list style
+    // https://gist.github.com/yeun/d824fc7b04b756508f4b0143535cec30
+    
+    // Table
+    body.dark-theme table {
+        border: 1px solid $table-border-color-dark;
+    }
+    
+    body.dark-theme td, th {
+        border: 1px solid $table-border-color-dark;
+    }
+    
+    body.dark-theme tbody tr:nth-child(odd) td,
+    body.dark-theme tbody tr:nth-child(odd) th {
+        background-color: $table-background-color-dark;
+    }
+    
+    // Blockquote
+    body.dark-theme blockquote {
+        border-left: .2em solid $blockquote-border-color-dark;
+    
+        p {
+        color: $blockquote-color-dark;
+        }
+    }
+    
+    // Footnote
+    body.dark-theme a.footnote {
+        &,
+        .post p &,
+        .post ol &,
+        .post ul & {
+        border: 1px solid $footnote-link-border-color-dark;
+    
+        &:hover {
+            background: $footnote-link-background-over-color-dark;
+        }
+        }
+    }
+    
+    body.dark-theme .footnotes {
+        border-top: 1px solid $divider-color-dark;
+    }
+      
+    // Specify the color of the selection
+    body.dark-theme ::-moz-selection {
+    //  color: $selection-color-dark;
+        background: $selection-background-color-dark;
+    }
+    body.dark-theme ::selection {
+    //  color: $selection-color-dark;
+        background: $selection-background-color-dark;
+    }
+        
+    /*********************/
+    /* LAYOUT / SECTIONS */
+    /*********************/
+    
+    //
+    // .sidebar
+    //
+    
+    body.dark-theme .wrapper-sidebar {
+        background-color: $background-color-dark;
+        border-right: 1px solid $divider-color-dark;
+    
+        @include mobile {
+        border-bottom: 1px solid $divider-color-dark;
+        }
+    }
+    
+    body.dark-theme .site-name {
+        margin: 0 auto;
+        color: $base-color-dark;
+        cursor: pointer;
+        font-family: $base-font;
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    
+    body.dark-theme .site-description {
+        color: $base-lighten-color-dark;
+    }
+    
+    body.dark-theme nav {
+        @include mobile {
+            color: $link-color-dark;
+        }
+        
+    }
+    
+    // Posts
+    
+    body.dark-theme .posts{
+    
+        li {
+           
+            > a {
+            color: $base-color-dark;
+            background-color: $tag-index-label-background-color-dark;
+    
+            &:hover {
+                color: $link-color-dark;
+                background-color:$link-bghv-color-dark;
+            }
+            }
+        }
+        
+    }
+    
+    body.dark-theme .posts > .post {
+        border-bottom: 1px solid $divider-color-dark;
+    }
+    
+    
+    body.dark-theme  .pinned .feather-anchor {
+        color: $base-lighten-color-dark;
+    }
+    
+    
+    body.dark-theme .date {
+        color: $base-lighten-color-dark;
+    }
+    
+    body.dark-theme .author{
+        color: $base-lighten-color-dark;
+    }
+
+    
+
+    // TOC
+    
+    body.dark-theme .toc {
+        background-color: $background-color-dark;
+        
+        &:before{
+        border-bottom: 3px double $divider-color-dark;
+        }
+    }
+    
+    // pagination
+    
+    body.dark-theme .pagination {
+        border-top: 1px solid $divider-color-dark;
+    
+        > .prev {
+        float: left;
+        width: 50%;
+        a {
+            color: $base-lighten-color-dark;
+            border: 1px solid $divider-color-dark;
+            background: $background-color-dark;
+    
+            &:hover, &:focus {
+            color: $link-lighten-color-dark;
+            border: 1px solid $link-lighten-color-dark;
+            background-color: $link-bghv-color-dark;
+            }
+        }
+        }
+    
+        > .next {
+        a {
+            color: $base-lighten-color-dark;
+            border: 1px solid $divider-color-dark;
+            background: $background-color-dark;
+    
+            &:hover, &:focus {
+            color: $link-lighten-color-dark;
+            border: 1px solid $link-lighten-color-dark;
+            background-color: $link-bghv-color-dark;
+            }
+        }
+        }
+    }
+    
+    // Archive
+    body.dark-theme .archive {
+        a {
+        color: $base-color-dark;
+        }
+        time {
+        color: $base-lighten-color-dark;
+        }
+    }
+    
+    // Tags
+    body.dark-theme .tags > .label {
+        > li:before {
+        content: "";
+        }
+        
+        > a {
+            color: $base-color-dark;
+            background-color: $tag-index-label-background-color-dark;
+    
+            &:hover {
+            background-color: $link-bghv-color-dark;
+            }
+        }
+        
+    }
+    
+    body.dark-theme .tags > .tag {
+        a {
+        color: $base-color-dark;
+        }
+        time {
+        color: $base-lighten-color-dark;
+        }
+    }
+    
+    
+    
+    // Footer
+    body.dark-theme .wrapper-footer-desktop {
+        border-top: 1px solid $footer-border-color-dark;
+        background-color: $footer-background-color-dark;
+    }
+    
+    body.dark-theme .wrapper-footer-mobile {        
+        @include mobile {
+            border-top: 1px solid $footer-border-color-dark;
+            background-color: $footer-background-color-dark;
+        }
+    }
+    
+    body.dark-theme footer {
+
+        p {
+        color: $base-lighten-color-dark;
+        }
+    
+        .svg-icon {
+        
+            svg {
+                fill: $base-lighten-color-dark;
+                
+                &:hover {
+                fill: $link-lighten-color-dark;
+                }
+            }
+
+        }
+    }
+    
+    // Back to Top button 
+    body.dark-theme .btn-top {
+        border-color: $link-color-dark;
+        background-color: $link-color-dark;
+        color: $background-color-dark;
+        &:visited {
+            color: $background-color-dark;
+            border-color: $link-color-dark;
+        }
+        &:hover {
+            background-color: $background-color-dark;
+            color: $link-color-dark;
+            border-color: $link-color-dark;
+        }  
+    
+    }
+    
+
+}
