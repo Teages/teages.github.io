@@ -23,6 +23,10 @@ body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.7em;
+  transition: 0.5s;
+  -moz-transition: 0.5s; /* Firefox 4 */
+  -webkit-transition: 0.5s; /* Safari and Chrome */
+  -o-transition: 0.5s; /* Opera */
 }
 
 .container {
@@ -331,6 +335,11 @@ img {
 	position: fixed;
 	z-index: 4;
   border-right: 1px solid $divider-color;
+
+  transition: 0.5s;
+  -moz-transition: 0.5s; /* Firefox 4 */
+  -webkit-transition: 0.5s; /* Safari and Chrome */
+  -o-transition: 0.5s; /* Opera */
 
   @include mobile {
     width: 100%;
@@ -689,6 +698,10 @@ nav {
   clear:both;
   width:100%;
   bottom:0;
+  transition: 0.5s;
+  -moz-transition: 0.5s; /* Firefox 4 */
+  -webkit-transition: 0.5s; /* Safari and Chrome */
+  -o-transition: 0.5s; /* Opera */
   
   @include mobile {
     display: none;
@@ -698,6 +711,10 @@ nav {
 
 .wrapper-footer-mobile {
   display: none;
+  transition: 0.5s;
+  -moz-transition: 0.5s; /* Firefox 4 */
+  -webkit-transition: 0.5s; /* Safari and Chrome */
+  -o-transition: 0.5s; /* Opera */
   
   @include mobile {
     display: block;
