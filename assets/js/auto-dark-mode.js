@@ -42,18 +42,18 @@ function manualDark() {
     document.body.classList.toggle('dark-theme');
     if (document.body.classList.contains('dark-theme')) {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.cookie = 'dark-theme=11';
+            document.cookie = 'dark-theme=11;path=/';
             lockDark = false;
         } else {
-            document.cookie = 'dark-theme=10';
+            document.cookie = 'dark-theme=10;path=/';
             lockDark = true;
         }
     } else {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.cookie = 'dark-theme=01';
+            document.cookie = 'dark-theme=01;path=/';
             lockDark = true;
         } else {
-            document.cookie = 'dark-theme=00';
+            document.cookie = 'dark-theme=00;path=/';
             lockDark = false;
         }    
     }
