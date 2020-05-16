@@ -27,9 +27,9 @@ class jekyllSearch {
       return `
         <li class="search-result">
             <article class="search-result-article">
-                <h4>
+                <h2>
                   <a href="${this.siteURL + item.url}">${item.title}</a> - ${item.date}
-                </h4>
+                </h2>
                 <p>${item.excerpt}</p>
             </article>
             <hr>
