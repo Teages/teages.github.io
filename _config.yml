@@ -83,7 +83,7 @@ url: https://blog.teages.xyz
 baseurl: 
 
 #特殊设置
-grey_all: true  # 全站变灰
+grey_all: false  # 全站变灰
 
 #
 # !! 以下所有设置都不需要更改 !!
