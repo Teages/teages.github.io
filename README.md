@@ -1,3 +1,5 @@
+## 天天爆错误, 解决不好依赖, ~~删(不)~~ 锁库跑路了!!!!11111
+
 # Teages's Blog
 
 All posts are private.
